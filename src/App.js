@@ -1,11 +1,12 @@
-import React from 'react';
-import './App.css';
-import Pagina from "./paginaprincipal";
+import React from 'react'
+import 'bootstrap/dist/css/bootstrap.css'
+import Spaces from "./components/spaces"
+import './App.css'
 
 function App() {
   return (
     <div className="App">
-      <Pagina/>
+      <Spaces/>
     </div>
   );
 }
